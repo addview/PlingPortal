@@ -1,0 +1,108 @@
+/* Huvudmeny: bakgrundsfärg */
+        .navbar {
+		    background-color: #598457;
+		    background: -moz-linear-gradient(top,#90b890 0%,#598457 100%);
+		    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#90b890),color-stop(100%,#598457));
+		    background: -webkit-linear-gradient(top,#90b890 0%,#598457 100%);
+		    background: -o-linear-gradient(top,#90b890 0%,#598457 100%);
+		    background: -ms-linear-gradient(top,#90b890 0%,#598457 100%);
+		    background: linear-gradient(to bottom,#90b890 0%,#598457 100%);
+		    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#90b890',endColorstr='#598457',GradientType=0);
+	    }
+        
+        /* Puffar: titel understrykning */
+        .link-box h3 {
+            border-color: #598457;
+        }
+    
+        /* Huvudmeny: textfärg */
+        .navbar ul.nav li a {
+		    color:#ffffff;
+	    }
+    
+        /* Huvudmeny: textfärg hover/focus */
+        .navbar ul.nav li a:hover,.navbar ul.nav li a:focus {
+		    color:#f9f9c9;
+	    }
+    
+        /* Huvudmenyn: bakgrund markerad / Vänstermeny: bakgrund */
+	    .navbar .nav .active a, .left-nav .nav-header {
+		    background-color: #90b890;
+		    background: -moz-linear-gradient(top,#90b890 0%,#90b890 100%);
+		    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#90b890),color-stop(100%,#90b890));
+		    background: -webkit-linear-gradient(top,#90b890 0%,#90b890 100%);
+		    background: -o-linear-gradient(top,#90b890 0%,#90b890 100%);
+		    background: -ms-linear-gradient(top,#90b890 0%,#90b890 100%);
+		    background: linear-gradient(to bottom,#90b890 0%,#90b890 100%);
+		    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#90b890',endColorstr='#90b890',GradientType=0);
+	    }
+        
+        /* Vänstermenyn: bakgrund hover */
+        .left-nav li a:hover {
+            background-color: #90b890 !important;
+	    }	
+
+        /* Linje: nyheter */
+	    .news .head {
+            border-color: #90b890;
+        }
+
+        /* Linje: genvägar etc */
+        .info h2, .news h2, .latest h2, .shortcuts h2 {
+            border-color: #90b890;
+        }
+
+        /* Sidfot: bakgrund */
+        .footer, body {
+		    background: #90b890;
+	    }
+        
+        /* Genvägar: bakgrund hover */
+        .shortcuts .media:hover{
+	        background: #90b890;
+        }
+    
+		/* Huvudmenyn: Textfärg nuvarande menyalternativ */
+        .navbar .nav .active a, .left-nav .nav-header {
+		    color:#565152;
+	    }
+    
+        /* Sidfot: text */
+        .footer {
+		    color: #565152;
+	    }
+
+        /* Vänstermenyn: text färg */
+	    .left-nav li a:hover, .left-nav li a:hover .glyphicon {
+		    color: #565152;
+	    }
+        .left-nav li a .glyphicon{
+            color: #000;
+        }
+        
+        /* Genvägar: text hover */
+        .shortcuts .media:hover .glyphicon, .shortcuts .media:hover .media-body{
+	        color: #565152;
+        }
+    
+        /* Huvudmeny: markerad textfärg hover/focus */
+        .navbar .nav .active a:hover,.navbar .nav .active a:focus {
+		    color:#f9f9c9;
+	    }
+    
+        /* Puffar: bakgrund */
+        .block .block-head {
+            background-color: #eef3ed;
+		    background: -moz-linear-gradient(top,#90b890 0%,#eef3ed 100%);
+		    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#90b890),color-stop(100%,#eef3ed));
+		    background: -webkit-linear-gradient(top,#90b890 0%,#eef3ed 100%);
+		    background: -o-linear-gradient(top,#90b890 0%,#eef3ed 100%);
+		    background: -ms-linear-gradient(top,#90b890 0%,#eef3ed 100%);
+		    background: linear-gradient(to bottom,#90b890 0%,#eef3ed 100%);
+		    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#90b890',endColorstr='#eef3ed',GradientType=0);
+	    }
+    
+        /* Puffar: titel text */
+        .block h3 {
+            color: #595957;
+	    }
